@@ -5,7 +5,8 @@ import "./Gasprices.css"
 function Gasprices() {
 
     return (
-        <div><div className="both__collumn">
+        <div className="gasprice__Background">
+            <div className="both__collumn">
             <div className="gasprice__collumn">
                     <div className ="card__body">
                         <div className="header__style">
