@@ -23,6 +23,9 @@ const Input =() => {
     const handleSend =async(e)=>{
 
         e.preventDefault();
+        if (text === "") {
+            alert("please enter a valid message")
+            return}
         if(image){             
 
             const storageRef = ref(storage, uuid());
